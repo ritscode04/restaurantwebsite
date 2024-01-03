@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo img{
+    width: 35%;
+    border: 3px solid rgb(214, 211, 205);
+    border-radius: 60%;
+
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-list li{
+    
+    list-style: none;
+    padding: 20px 21px;
+
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(249, 242, 242);
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(165, 163, 163);
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid rgb(244, 241, 241);
+    border-radius: 9px;
+}
+
+
+.background{
+    background: rgba(238, 231, 231, 0.7) url('../img/back.jpg');
+    background-size: cover;
+    background-blend-mode:darken;
+}
+
+.firstSection{
+    height: 110vh;
+
+
+}
+.box main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin:auto;
+    
+}
+
+.firstHalf{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+    
+
+}
+.secondHalf img{
+    width: 70%;
+    border: 4px;
+    border-radius: 198px;
+    display: block;
+    margin: auto;
+
+}
+
+.text-big{
+    font-size: 40px;
+    color: black;
+
+
+}
+.text-small{
+    font-size: 20px;
+    color: white;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+
+}
+.section{
+    height: 500px;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.section-left{
+    flex-direction: row-reverse;
+  
+}
+.paras{
+    padding: 0px 5px;
+
+}
+.sectionSubTag{
+    font-family: 'Ubuntu', sans-serif;
+}
+
